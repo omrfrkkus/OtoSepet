@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DC1F19CA-846E-4537-B170-F607FCA0FDA9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>OtoSepet</RootNamespace>
+    <AssemblyName>OtoSepet</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OtoDatabaseDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OtoDatabaseDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OtoDatabaseDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OtoDatabaseDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OtoDatabaseDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OtoDatabaseDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OtoDatabaseDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OtoDatabaseDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OtoDatabaseDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OtoDatabaseDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OtoDatabaseDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OtoDatabaseDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OtoDatabaseDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OtoDatabaseDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OtoDatabaseDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OtoDatabaseDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OtoDatabaseDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OtoDatabaseDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OtoDatabaseDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OtoDatabaseDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Start.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Start.Designer.cs">
+      <DependentUpon>Start.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Start.resx">
+      <DependentUpon>Start.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="OtoDatabaseDataSet.xsc">
+      <DependentUpon>OtoDatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="OtoDatabaseDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OtoDatabaseDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OtoDatabaseDataSet.xss">
+      <DependentUpon>OtoDatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="OtoDatabaseDataSet1.xsc">
+      <DependentUpon>OtoDatabaseDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="OtoDatabaseDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OtoDatabaseDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OtoDatabaseDataSet1.xss">
+      <DependentUpon>OtoDatabaseDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="OtoDatabaseDataSet2.xsc">
+      <DependentUpon>OtoDatabaseDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="OtoDatabaseDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OtoDatabaseDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OtoDatabaseDataSet2.xss">
+      <DependentUpon>OtoDatabaseDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="OtoDatabaseDataSet3.xsc">
+      <DependentUpon>OtoDatabaseDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="OtoDatabaseDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OtoDatabaseDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OtoDatabaseDataSet3.xss">
+      <DependentUpon>OtoDatabaseDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="OtoDatabaseDataSet4.xsc">
+      <DependentUpon>OtoDatabaseDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="OtoDatabaseDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OtoDatabaseDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OtoDatabaseDataSet4.xss">
+      <DependentUpon>OtoDatabaseDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="OtoDatabaseDataSet5.xsc">
+      <DependentUpon>OtoDatabaseDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="OtoDatabaseDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OtoDatabaseDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OtoDatabaseDataSet5.xss">
+      <DependentUpon>OtoDatabaseDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="OtoDatabaseDataSet6.xsc">
+      <DependentUpon>OtoDatabaseDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="OtoDatabaseDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OtoDatabaseDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OtoDatabaseDataSet6.xss">
+      <DependentUpon>OtoDatabaseDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="OtoDatabaseDataSet7.xsc">
+      <DependentUpon>OtoDatabaseDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="OtoDatabaseDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OtoDatabaseDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OtoDatabaseDataSet7.xss">
+      <DependentUpon>OtoDatabaseDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="OtoDatabaseDataSet8.xsc">
+      <DependentUpon>OtoDatabaseDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="OtoDatabaseDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OtoDatabaseDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OtoDatabaseDataSet8.xss">
+      <DependentUpon>OtoDatabaseDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="OtoDatabaseDataSet9.xsc">
+      <DependentUpon>OtoDatabaseDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="OtoDatabaseDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OtoDatabaseDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OtoDatabaseDataSet9.xss">
+      <DependentUpon>OtoDatabaseDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-clipart-sports-car-computer-icons-graphics-car-sedan-rectangle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8cf1cd51cb9875be6dd79d44edad1415.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
